@@ -52,7 +52,7 @@
                     <a href="{{ route('opak') }}" class="about-social-btn">
                         <i class='bx bx-right-arrow-alt'></i> Lihat
                     </a>
-                    <a href="https://wa.me/6281779430667" target="_blank" class="btn-wa">Pesan via WA</a>
+                    <a href="https://wa.me/6281235495774" target="_blank" class="btn-wa">Pesan via WA</a>
                 </div>
             </div>
         </section>
@@ -74,5 +74,6 @@
     <script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
+
 
 
