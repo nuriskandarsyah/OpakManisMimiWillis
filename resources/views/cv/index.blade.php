@@ -48,7 +48,7 @@
                         <img src="{{ asset('images/logo.png') }}" alt="opak" class="about-subtitle">
                     </div>
                     <h3 class="about-nama">KATALOG OPAK MANIS</h3>
-                    <p class="about-deskripsi">Katalog produk UMKM OPAK</p>
+                    <p class="about-deskripsi">Blok tengah Rt 003, Rw 002, Desa / Kelurahan Sadomas, Kec. Rajagaluh, Kab. Majalengka, Provindi Jawa Barat</p>
                     <a href="{{ route('opak') }}" class="about-social-btn">
                         <i class='bx bx-right-arrow-alt'></i> Lihat
                     </a>
@@ -74,6 +74,7 @@
     <script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
+
 
 
 
