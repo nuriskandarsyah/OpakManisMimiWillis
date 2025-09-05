@@ -28,11 +28,16 @@
 
             <!-- Menu Grid -->
             <div class="about-container">
-                <div class="about-item-jamu">
+                <div class="about-item">
                     <div class="about-img">
-                        <img src="{{ asset('images/2.jpeg') }}" alt="">
+                        <img src="{{ asset('images/1.jpg') }}" alt="">
                     </div>
-                    <h3 class="about-nama">OPAK MANIS MIMI WILIS</h3>
+                </div>
+
+                <div class="about-item">
+                    <div class="about-img">
+                        <img src="{{ asset('images/2.jpg') }}" alt="">
+                    </div>
                 </div>
             </div>
         </section>
@@ -58,5 +63,6 @@
     <script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
+
 
 
