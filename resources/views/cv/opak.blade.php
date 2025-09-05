@@ -15,9 +15,10 @@
                 <a href="#" class="nav-logo">OPAK MANIS MIMI WILIS</a>
             </div>
 
-            <div class="nav-toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
-            </div>
+        <!-- Tombol Back to Index -->
+        <div class="nav-back">
+            <a href="{{ url('/') }}" class="btn-back">← Back to Index</a>
+        </div>
         </nav>
     </header>
 
@@ -57,4 +58,5 @@
     <script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
+
 
