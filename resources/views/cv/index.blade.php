@@ -15,14 +15,6 @@
                 <a href="#" class="nav-logo">DESA JAGAPURA LOR</a>
             </div>
 
-            <div class="nav-menu" id="nav-menu">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="{{ route('index') }}" class="nav-link {{ request()->routeIs('index') ? 'active' : '' }}">Dashboard</a></li>
-                    <li class="nav-item"><a href="{{ route('seblak') }}" class="nav-link {{ request()->routeIs('seblak') ? 'active' : '' }}">Seblak MelsyaJGP</a></li>
-                    <li class="nav-item"><a href="{{ route('cs') }}" class="nav-link {{ request()->routeIs('cs') ? 'active' : '' }}">Cybersecurity</a></li>
-                </ul>
-            </div>
-
             <div class="nav-toggle" id="nav-toggle">
                 <i class='bx bx-menu'></i>
             </div>
@@ -33,14 +25,16 @@
         <section class="home" id="index">
             <div class="home-container bd-grid">
                 <h1 class="home-title">
-                    <span class="produk-text">Desa Jagapura Lor</span>
+                    <span class="produk-text">OPAK MANIS MIMI WILIS</span>
                 </h1>
 
                 <div class="home-scroll">
                     <p class="home-description">
-                        Desa Jagapura Lor terletak di Kecamatan Gegesik, Kabupaten Cirebon (Jawa Barat). Ini merupakan desa yang mengusung visi menjadi “Desa Cerdas & Berdata”, mencerminkan semangat modernisasi dan pelayanan publik yang efektif serta efisien.
-                        
-                        Kami mahasiswa KKM Universitas Muhammadiyah Cirebon siap mendampingi dan menghadirkan teknologi sederhana agar desa Jagapura Lor semakin maju, mandiri, dan sejahtera.
+                        Mie Jebew mie kenyal dengan racikan bumbu khas, berpadu kuah pedas gurih yang bisa dipilih levelnya. Cocok untuk kamu yang suka tantangan rasa pedas dan ingin pengalaman kuliner ekstrem yang seru.
+
+                        opak Prasmanan sensasi opak unik dengan konsep prasmanan. Bebas pilih topping favoritmu mulai dari kerupuk, sosis, bakso, ceker, sayuran, hingga topping spesial lainnya. Semua tersaji dengan kuah opak pedas gurih khas MelsyaJGP yang hangat dan menggugah selera.
+
+                        Baik untuk nongkrong bareng teman, makan santai, atau sekadar mengisi perut dengan hidangan pedas nikmat, MelsyaJGP siap memanjakan lidahmu!
                     </p>
                     <a href="#about" class="home-scroll-link">
                         <i class='bx bx-up-arrow-alt'></i> SCROLL DOWN
@@ -54,29 +48,17 @@
             <h2 class="section-title">Pilih Halaman</h2>
 
             <div class="about-container bd-grid">
-                <!-- UMKM Seblak -->
+                <!-- UMKM opak -->
                 <div class="about-item">
                     <div class="about-img">
-                        <img src="{{ asset('images/logoseblak.jpg') }}" alt="">
+                        <img src="{{ asset('images/logoopak.jpg') }}" alt="">
                     </div>
-                    <h3 class="about-nama">Melsya JGP</h3>
-                    <p class="about-deskripsi">Informasi dan produk UMKM Mie Jebew & Seblak Prasmanan</p>
-                    <a href="{{ route('seblak') }}" class="about-social-btn">
+                    <h3 class="about-nama">KATALOG OPAK MANIS</h3>
+                    <p class="about-deskripsi">Katalog produk UMKM OPAK</p>
+                    <a href="{{ route('opak') }}" class="about-social-btn">
                         <i class='bx bx-right-arrow-alt'></i> Lihat
                     </a>
-                </div>
-
-                <!-- Cyber Security -->
-                <div class="about-item">
-                    <div class="about-img">
-                        <i class='bx bx-shield-quarter' style="font-size:4rem; color:#2a3b47;"></i>
-                    </div>
-                    <h3 class="about-nama">Cyber Security</h3>
-                    <p class="about-deskripsi">Penyampaian informasi terkait pentingnya bijak berinternet dan melindungi diri dari bahaya penipuan online <i>(fraud)</i>.</p>
-                    <a href="{{ route('cs') }}" class="about-social-btn">
-                        <i class='bx bx-right-arrow-alt'></i> Lihat
-                    </a>
-                </div>
+                    <a href="https://wa.me/6281779430667" target="_blank" class="btn-wa">Pesan via WA</a>
                 </div>
             </div>
         </section>
@@ -84,14 +66,11 @@
 
     <footer class="footer section">
         <div class="footer-container bd-grid">
-            <div class="footer-data">
-                <h2 class="footer-title">{{ $data['name'] }}</h2>
-                <p class="footer-text">Halo guys ini adalah web buatan KKM UMC kelompok 46 Desa Jagapura Lor</p>
-            </div>
+            
             
             <div class="footer-data">
                 <h2 class="footer-title">Follow Me</h2>
-                <p>karikop seafood</p>
+                <p>Opak Manis Mimi Wilis</p>
                 <a href="#" class="footer-social"><i class='bx bxl-instagram'></i></a>
                 <a href="#" class="footer-social"><i class='bx bxl-facebook'></i></a>
             </div>
