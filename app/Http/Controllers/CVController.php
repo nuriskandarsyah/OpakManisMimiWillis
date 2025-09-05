@@ -6,48 +6,27 @@ use Illuminate\Http\Request;
 
 class CVController extends Controller
 {
-    public function karikop()
+    public function index()
     {
         $data = [
-            'name' => 'Karikop ',
-            'profession' => 'kerang putih | kerang simping | kerang dara | kerang ijo | kerang tahu | kepiting | udang | cumi',
-            'about' => ' ',
-            'skills' => [
-            ],
-            'produkumi' => 'Kerupuk Rengginang Umi menawarkan dua kategori utama produk olahan. Untuk kerupuk ikan, tersedia varian rasa dari ikan barakuda, tongkol, dan tenggiri yang gurih dan renyah. Sementara untuk rengginang, diolah dari beras ketan pilihan yang dipadukan dengan ikan segar, menghasilkan cita rasa unik yang khas dan lezat.',
-            'contact' => [
-                'email' => 'nuriskandarsyah010@gmail.com',
-                'phone' => '085157826617',
-                'address' => 'Dusun Duwet III, Desa Banjarharjo, Kec. Banjarharjo, Kab. Kulonprogo, D.I Yogyakarta'
-            ]
+            'name' => 'Dashboard',
         ];
-
-        return view('cv.karikop', compact('data'));
+        return view('cv.index', compact('data'));
     }
     
-    public function ProdukUmi()
+    public function cs()
     {
         $data = [
-            'name' => 'Produk Umi',
-            'profession' => 'Rengginang | Kerupuk',
-            'about' => ' ',
-            'skills' => [
-            ],
+            'name' => 'Warga Jagapura',
         ];
-
-        return view('cv.ProdukUmi', compact('data'));
+        return view('cv.cs', compact('data'));
     }
     
-    public function IstyPJ()
+    public function seblak()
     {
         $data = [
-            'name' => 'Isty_Poenya Jamu',
-            'profession' => 'Jamu',
-            'about' => ' ',
-            'skills' => [
-            ],
+            'name' => 'Warga Jagapura',
         ];
-
-        return view('cv.IstyPJ', compact('data'));
+        return view('cv.seblak', compact('data'));
     }
 }
