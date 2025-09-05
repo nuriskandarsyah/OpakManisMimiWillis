@@ -22,23 +22,8 @@
     </header>
 
     <main class="l-main">
-        <section class="home" id="opak">
-            <div class="home-container bd-grid">
-                <h1 class="home-title">
-                    <a href="#opakkatalog" class="home-scroll-link">
-                        <i class='bx bx-up-arrow-alt'></i> SCROLL DOWN
-                    </a>
-                </div>
-            </div>
-        </section>
 
         <section class="about section" id="opakkatalog">
-            <!-- Header -->
-            <div class="about-header">
-                <img src="{{ asset('images/1.jpeg') }}" alt="opak" class="about-subtitle">
-                <br>
-                <a href="https://wa.me/6281779430667" target="_blank" class="btn-wa">Pesan via WA</a>
-            </div>
 
             <!-- Menu Grid -->
             <div class="about-container">
@@ -46,8 +31,7 @@
                     <div class="about-img">
                         <img src="{{ asset('images/2.jpeg') }}" alt="">
                     </div>
-                    <h3 class="about-nama">Daftar Menu Melsya JGP</h3>
-                    <span class="about-harga"> </span>
+                    <h3 class="about-nama">OPAK MANIS MIMI WILIS</h3>
                 </div>
             </div>
         </section>
@@ -58,13 +42,12 @@
     <footer class="footer section">
         <div class="footer-container bd-grid">
             <div class="footer-data">
-                <h2 class="footer-title">Melsya JGP</h2>
-                <p class="footer-text">Halo {{ $data['name'] }} ini adalah Katalog Menu Kami</p>
+                <h2 class="footer-title">OPAK MANIS MIMI WILIS</h2>
             </div>
             
             <div class="footer-data">
                 <h2 class="footer-title">Follow Me</h2>
-                <p>Produk Umi</p>
+                <p>OPAK MANIS MIMI WILIS</p>
                 <a href="#" class="footer-social"><i class='bx bxl-instagram'></i></a>
                 <a href="#" class="footer-social"><i class='bx bxl-facebook'></i></a>
             </div>
@@ -74,3 +57,4 @@
     <script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
+
