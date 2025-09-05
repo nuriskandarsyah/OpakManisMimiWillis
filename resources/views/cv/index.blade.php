@@ -12,11 +12,7 @@
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="#" class="nav-logo">DESA JAGAPURA LOR</a>
-            </div>
-
-            <div class="nav-toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
+                <a href="#" class="nav-logo">DESA SADOMAS</a>
             </div>
         </nav>
     </header>
@@ -30,13 +26,11 @@
 
                 <div class="home-scroll">
                     <p class="home-description">
-                        Mie Jebew mie kenyal dengan racikan bumbu khas, berpadu kuah pedas gurih yang bisa dipilih levelnya. Cocok untuk kamu yang suka tantangan rasa pedas dan ingin pengalaman kuliner ekstrem yang seru.
-
-                        opak Prasmanan sensasi opak unik dengan konsep prasmanan. Bebas pilih topping favoritmu mulai dari kerupuk, sosis, bakso, ceker, sayuran, hingga topping spesial lainnya. Semua tersaji dengan kuah opak pedas gurih khas MelsyaJGP yang hangat dan menggugah selera.
-
-                        Baik untuk nongkrong bareng teman, makan santai, atau sekadar mengisi perut dengan hidangan pedas nikmat, MelsyaJGP siap memanjakan lidahmu!
-                    </p>
-                    <a href="#about" class="home-scroll-link">
+                        "Selamat datang di dashboard katalog Opak Manis Mimi Wilis.
+                        Terbuat dari bahan pilihan dengan resep turun-temurun,
+                        opak ini hadir dengan rasa manis yang khas dan tekstur renyah yang pas.
+                        Cocok dinikmati bersama keluarga, teman, atau sebagai oleh-oleh khas yang istimewa.
+                        Mari rasakan kelezatan camilan tradisional yang selalu jadi favorit dari dulu hingga kini."
                         <i class='bx bx-up-arrow-alt'></i> SCROLL DOWN
                     </a>
                 </div>
@@ -80,4 +74,5 @@
     <script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
+
 
