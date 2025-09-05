@@ -14,19 +14,11 @@ class CVController extends Controller
         return view('cv.index', compact('data'));
     }
     
-    public function cs()
+    public function opak()
     {
         $data = [
-            'name' => 'Warga Jagapura',
+            'name' => 'Internet',
         ];
-        return view('cv.cs', compact('data'));
-    }
-    
-    public function seblak()
-    {
-        $data = [
-            'name' => 'Warga Jagapura',
-        ];
-        return view('cv.seblak', compact('data'));
+        return view('cv.opak', compact('data'));
     }
 }
