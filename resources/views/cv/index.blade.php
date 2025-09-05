@@ -45,7 +45,7 @@
                 <!-- UMKM opak -->
                 <div class="about-item">
                     <div class="about-header">
-                        <img src="{{ asset('images/logo.jpg') }}" alt="opak" class="about-subtitle">
+                        <img src="{{ asset('images/logo.png') }}" alt="opak" class="about-subtitle">
                     </div>
                     <h3 class="about-nama">KATALOG OPAK MANIS</h3>
                     <p class="about-deskripsi">Katalog produk UMKM OPAK</p>
@@ -74,6 +74,7 @@
     <script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
+
 
 
 
