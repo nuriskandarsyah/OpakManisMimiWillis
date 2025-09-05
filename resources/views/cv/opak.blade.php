@@ -12,15 +12,7 @@
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="#" class="nav-logo">DESA JAGAPURA LOR</a>
-            </div>
-
-            <div class="nav-menu" id="nav-menu">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="{{ route('index') }}" class="nav-link {{ request()->routeIs('index') ? 'active' : '' }}">Dashboard</a></li>
-                    <li class="nav-item"><a href="{{ route('seblak') }}" class="nav-link {{ request()->routeIs('seblak') ? 'active' : '' }}"> Seblak MelsyaJGP</a></li>
-                    <li class="nav-item"><a href="{{ route('cs') }}" class="nav-link {{ request()->routeIs('cs') ? 'active' : '' }}">Cybersecurity</a></li>
-                </ul>
+                <a href="#" class="nav-logo">OPAK MANIS MIMI WILIS</a>
             </div>
 
             <div class="nav-toggle" id="nav-toggle">
@@ -30,31 +22,20 @@
     </header>
 
     <main class="l-main">
-        <section class="home" id="seblak">
+        <section class="home" id="opak">
             <div class="home-container bd-grid">
                 <h1 class="home-title">
-                    <span class="produk-text">Mie Jebew & Seblak Prasmanan</span>
-                </h1>
-
-                <div class="home-scroll">
-                    <p class="home-description">
-                        Mie Jebew mie kenyal dengan racikan bumbu khas, berpadu kuah pedas gurih yang bisa dipilih levelnya. Cocok untuk kamu yang suka tantangan rasa pedas dan ingin pengalaman kuliner ekstrem yang seru.
-
-                        Seblak Prasmanan sensasi seblak unik dengan konsep prasmanan. Bebas pilih topping favoritmu mulai dari kerupuk, sosis, bakso, ceker, sayuran, hingga topping spesial lainnya. Semua tersaji dengan kuah seblak pedas gurih khas MelsyaJGP yang hangat dan menggugah selera.
-
-                        Baik untuk nongkrong bareng teman, makan santai, atau sekadar mengisi perut dengan hidangan pedas nikmat, MelsyaJGP siap memanjakan lidahmu!
-                    </p>
-                    <a href="#seblakkatalog" class="home-scroll-link">
+                    <a href="#opakkatalog" class="home-scroll-link">
                         <i class='bx bx-up-arrow-alt'></i> SCROLL DOWN
                     </a>
                 </div>
             </div>
         </section>
 
-        <section class="about section" id="seblakkatalog">
+        <section class="about section" id="opakkatalog">
             <!-- Header -->
             <div class="about-header">
-                <img src="{{ asset('images/1.jpeg') }}" alt="seblak" class="about-subtitle">
+                <img src="{{ asset('images/1.jpeg') }}" alt="opak" class="about-subtitle">
                 <br>
                 <a href="https://wa.me/6281779430667" target="_blank" class="btn-wa">Pesan via WA</a>
             </div>
